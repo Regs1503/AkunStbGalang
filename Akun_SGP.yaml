@@ -1,0 +1,16 @@
+proxies:
+  - name: akun_git_SGP
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 6bd49f79-6500-4745-9fbb-7c7a3fa40f92
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zoomgov.com.spoint-4.patunganvps.us
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: zoomgov.com.spoint-4.patunganvps.us
+    udp: true
