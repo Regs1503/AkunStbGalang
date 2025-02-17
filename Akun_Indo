@@ -1,0 +1,14 @@
+proxies:
+  - name: Akun_Git_IND
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: Fg13HTD4tYHoOtUkRcxOfQ
+    skip-cert-verify: true
+    sni: zoomgov.com.nusa-9.patunganvps.us
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: zoomgov.com.nusa-9.patunganvps.us
+    udp: true
